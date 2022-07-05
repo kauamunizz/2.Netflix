@@ -278,6 +278,6 @@ img {
     padding: 2rem 0 1rem;
    }
    .footer .form-cta {
-    margin-left: 20px;
+    justify-content: center;
    }
 }
