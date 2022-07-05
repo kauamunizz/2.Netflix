@@ -193,3 +193,89 @@ img {
 
 /* responsivo */
 
+@media (max-width: 576px) {
+    html, body {
+        width: 100%;
+        height: auto;
+        overflow-x: hidden;
+    }
+    .header {
+        width: 80%;
+        left: 40px;
+    }
+    .main {
+        background-size: auto;
+    }
+    .main-child {
+        max-width: 1000px;
+        min-width: 300px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .main-child h1 {
+        font-size: 48px;
+    }
+    .main-child span {
+        font-size: 17px;
+    }
+    .main-child p {
+        font-size: 15px;
+    }
+   .form-cta {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+   }
+   .form-cta button {
+    font-size: 20px;
+    width: 110px;
+    margin-right: 10px;
+   }
+   .form-cta button::after {
+    content: none;
+   }
+   .section h2 {
+    margin-top: 16px;
+    font-size: 40px;
+   }
+   .section p {
+    font-size: 17px;
+   }
+   .section .grid {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+   .img-tv img {
+    width: 440px;
+   }
+   .video-tv {
+    width: 320px;
+    left: 60px;
+    top: 70px;
+   }
+   .download {
+    padding: 0 0 25px;
+   }
+   .download .img-tv img {
+    margin-top: 13px;
+    width: 450px;
+   }
+   .device-pile img {
+    width: 380px;
+   }
+   .device-pile .video-tv {
+    width: 236px;
+    top: 33px;
+    left: 70px;
+   }
+   .footer {
+    padding: 2rem 0 1rem;
+   }
+   .footer .form-cta {
+    margin-left: 20px;
+   }
+}
