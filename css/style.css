@@ -223,14 +223,18 @@ img {
     .main-child p {
         font-size: 15px;
     }
+    .main-child .form-cta {
+        justify-content: center;
+    }
    .form-cta {
     display: flex;
     width: 100%;
     height: 100%;
    }
    .form-cta button {
-    font-size: 20px;
-    width: 110px;
+    font-size: 27px;
+    width: 115px;
+    height: 62px;
    }
    .form-cta button::after {
     content: none;
