@@ -227,12 +227,11 @@ img {
     display: flex;
     width: 100%;
     height: 100%;
-    padding: 3px;
+    padding: 15px;
    }
    .form-cta button {
     font-size: 20px;
     width: 110px;
-    margin-right: 10px;
    }
    .form-cta button::after {
     content: none;
@@ -276,6 +275,8 @@ img {
     padding: 2rem 0 1rem;
    }
    .footer .form-cta {
-    margin-left: 20px;
+    margin-left: 40px;
+    height: auto;
+    padding: 0;
    }
 }
