@@ -94,12 +94,11 @@ html, body {
 .header {
     position: absolute;
     z-index: 100;
-    width: 100%;
+    width: calc(100% - 100px);
     display: flex;
     justify-content: space-between;
-    max-width: 1240px;
     top: 30px;
-    left: 51px;
+    padding: 0 50px;
 }
 
 .header a {
@@ -198,11 +197,11 @@ img {
         width: 100%;
         height: auto;
         overflow-x: hidden;
-    }
+    }/*
     .header {
         width: 80%;
         left: 40px;
-    }
+    }*/
     .main {
         background-size: auto;
     }
